@@ -1,2 +1,2 @@
 # alerting
-Small tool to automatically alert my Dad for new vespa from leboncoin
+Small tool to automatically send sms alert for new vespa scooter ad from leboncoin
