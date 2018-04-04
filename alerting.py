@@ -1,8 +1,8 @@
 # Libraries export
 from bs4 import BeautifulSoup
 import requests
-
 import pandas as pd
+from twilio.rest import Client
 
 # regex module 
 import re
