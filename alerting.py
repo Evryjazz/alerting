@@ -48,11 +48,11 @@ previous_ad_list_id = str(previous_ad_list_id)
 # Check if there is a new ad
 if previous_ad_list_id != ad_list_id:
     # send new sms
-    account = "ACcec09159a0cadfc83fe867a404b8851c"
-    token = "4a6031d6d20c98536f6f5acc5e260b2a"
+    account = "*****************"
+    token = "**********"
     client = Client(account, token)
-    message = client.messages.create(to="+33659241060", 
-                                 from_="+33757916182",
+    message = client.messages.create(to="+**********", 
+                                 from_="+**********",
                                  body="""
                                          
                                          
