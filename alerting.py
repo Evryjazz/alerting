@@ -8,7 +8,7 @@ from twilio.rest import Client
 import re
 
 # lbc search
-url = 'https://www.leboncoin.fr/motos/offres/provence_alpes_cote_d_azur/?th=1&q=*vespa%20gt*%20OR%20PX%20OR%20LML%20NOT%20solex%20NOT%20ciao%20NOT%20gts%20NOT%20gt-s%20NOT%20200%20NOT%20neuf%20NOT%20trail&parrot=2&ps=4'
+url = 'https://www.leboncoin.fr/motos/offres/provence_alpes_cote_d_azur/?th=1&q=*vespa%20gt*%20OR%20PX%20OR%20LML%20NOT%20solex%20NOT%20ciao%20NOT%20gts%20NOT%20gt-s%20NOT%20200%20NOT%20neuf%20NOT%20trail%20NOT%20Kymco%20NOT%20Suzuki%20NOT%20GTV&it=1&parrot=2&ps=4'
 
 # Request content from web page
 result = requests.get(url)
